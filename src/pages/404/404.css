@@ -1,0 +1,28 @@
+.notfound{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center !important;
+}
+
+.notfound div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.notfound h1{
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.notfound img{
+    width: 100px;
+}
+
+.notfound p{
+    font-size: 15px;
+    color: rgb(102, 102, 102);
+    margin: 20px 0;
+}

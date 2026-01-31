@@ -1,0 +1,96 @@
+.wholesale-section {
+  padding: 80px 40px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.wholesale-header {
+  margin-bottom: 50px;
+}
+
+.wholesale-title {
+  font-size: 3rem;
+  font-weight: 500;
+  margin: 15px 0;
+  color: #1a1a1a;
+}
+
+.wholesale-subtitle {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.join-network-btn {
+  background-color: #ff1a1a;
+  color: white;
+  border: none;
+  padding: 16px 36px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.join-network-btn:hover {
+  background-color: #d11414;
+  transform: scale(1.02);
+}
+
+/* Banner Styling */
+.wholesale-banner {
+  position: relative;
+  width: 100%;
+  height: 550px;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.banner-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.banner-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4); /* Darkens the image for text readability */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.banner-text {
+  color: white;
+  font-size: 3.5rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .wholesale-title {
+    font-size: 2.2rem;
+  }
+  
+  .banner-text {
+    font-size: 2rem;
+  }
+  
+  .wholesale-banner {
+    height: 300px;
+  }
+  
+  .wholesale-section {
+    padding: 60px 5% 20px;
+  }
+}

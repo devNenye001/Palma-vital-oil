@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.product-card{
+    min-width: 288px;
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+.product-card:hover{
+    transform: translateY(-5px);
+}       
+.product-image{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.product-desc{
+   margin: 7px 0;
+   font-size: 14px;
+   color: grey;
+}
+
+.product-details h3{
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+
+}

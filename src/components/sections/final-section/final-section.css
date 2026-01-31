@@ -1,0 +1,73 @@
+.final-cta-section {
+  padding: 100px 40px;
+  background-color: #ffffff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-container {
+  max-width: 600px;
+}
+
+.cta-title {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #222;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.text-red {
+  color: #ff1a1a;
+}
+
+.whatsapp-number {
+  font-size: 1.1rem;
+  color: #777;
+  margin-bottom: 40px;
+  font-weight: 500;
+}
+
+.whatsapp-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  background-color: #ff1a1a;
+  color: #ffffff;
+  padding: 18px 40px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 20px rgba(255, 26, 26, 0.15);
+}
+
+.whatsapp-btn:hover {
+  background-color: #d11414;
+  transform: translateY(-3px);
+  box-shadow: 0 15px 30px rgba(255, 26, 26, 0.25);
+}
+
+.btn-icon {
+  font-size: 1.4rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .final-cta-section {
+    padding: 80px 5%;
+  }
+
+  .cta-title {
+    font-size: 2.2rem;
+  }
+
+  .whatsapp-btn {
+    width: 100%;
+    justify-content: center;
+    padding: 16px 20px;
+  }
+}

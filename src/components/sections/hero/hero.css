@@ -1,0 +1,110 @@
+.hero-container {
+  display: flex;
+  min-height: 80vh;
+  padding: 40px 40px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  font-family: 'Inter', sans-serif; /* Or a similar clean Sans-Serif */
+}
+
+/* Left Side Styling */
+.hero-text-content {
+  flex: 1;
+  max-width: 500px;
+}
+
+.brand-name {
+  color: #888;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: 500;
+  line-height: 1.1;
+  color: #1a1a1a;
+  margin-bottom: 25px;
+}
+
+.text-red {
+  color: #ff1a1a; /* Vibrant red from the logo */
+}
+
+.hero-description {
+  font-size: 1.1rem;
+  color: #444;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+/* Button Styling */
+.hero-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.btn-filled, .btn-outline {
+  padding: 14px 32px;
+  border-radius: 10px; /* Modern rounded corners */
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-filled {
+  background-color: #ff1a1a;
+  color: white;
+  border: none;
+}
+
+.btn-filled:hover {
+  background-color: #d11414;
+}
+
+.btn-outline {
+  background-color: transparent;
+  color: #ff1a1a;
+  border: 1px solid #ff1a1a;
+}
+
+.btn-outline:hover {
+  background-color: rgba(255, 26, 26, 0.05);
+}
+
+/* Right Side Styling */
+.hero-image-container {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero-image {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Responsive Design */
+@media (max-width: 968px) {
+  .hero-container {
+    flex-direction: column;
+    text-align: center;
+    padding: 60px 5%;
+  }
+  
+  .hero-text-content {
+    margin-bottom: 50px;
+  }
+  
+  .hero-buttons {
+    justify-content: center;
+  }
+  
+  .hero-image-container {
+    justify-content: center;
+  }
+}
