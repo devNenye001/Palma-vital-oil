@@ -1,0 +1,101 @@
+.pv-products-page {
+  padding: 60px 40px;
+  background-color: #ffffff;
+  min-height: 100vh;
+}
+
+.pv-products-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.pv-products-main-title {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #000000;
+}
+
+/* Grid System */
+.pv-products-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+/* Card Styling */
+.pv-product-item-card {
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease;
+}
+
+.pv-product-item-card:hover {
+  transform: translateY(-8px);
+}
+
+.pv-product-image-wrapper {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background-color: #fcfcfc;
+  overflow: hidden;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pv-product-img-element {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Typography Styling */
+.pv-product-info-block {
+  text-align: left;
+}
+
+.pv-product-name-text {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin: 0 0 6px 0;
+}
+
+.pv-product-tagline-text {
+  font-size: 0.95rem;
+  color: #888888;
+  margin: 0 0 12px 0;
+  line-height: 1.4;
+}
+
+.pv-product-price-value {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #000000;
+  margin: 0;
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 1024px) {
+  .pv-products-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+}
+
+@media (max-width: 650px) {
+  .pv-products-page {
+    padding: 40px;
+  }
+  
+  .pv-products-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .pv-products-main-title {
+    font-size: 2rem;
+  }
+}

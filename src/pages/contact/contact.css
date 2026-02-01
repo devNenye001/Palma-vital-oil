@@ -1,0 +1,153 @@
+.pvc-contact-wrapper {
+  padding: 60px 40px;
+  background-color: #ffffff;
+}
+
+.pvc-contact-header {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;   
+    align-items: center;
+}
+
+.pvc-header-title {
+  font-size: 2.8rem;
+  font-weight: 500;
+  color: #1a1a1a;
+  margin-bottom: 15px;
+}
+
+.pvc-text-red {
+  color: #ff1a1a;
+}
+
+.pvc-header-subtitle {
+  color: #555;
+  font-size: 1rem;
+  max-width: 500px;
+  text-align: center;
+}
+
+.pvc-contact-container {
+  display: flex;
+  gap: 60px;
+  align-items: flex-start;
+}
+
+/* Form Styling */
+.pvc-form-column {
+  flex: 1;
+}
+
+.pvc-message-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 20px;
+  padding: 40px;
+  background: #fff;
+}
+
+.pvc-card-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.pvc-input-group {
+  margin-bottom: 20px;
+}
+
+.pvc-input-group label {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.pvc-required {
+  color: #ff1a1a;
+}
+
+.pvc-input-group input, 
+.pvc-input-group textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline-color: #ff1a1a;
+}
+
+.pvc-submit-button {
+  width: 100%;
+  padding: 15px;
+  background-color: #ff1a1a;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.pvc-submit-button:hover {
+  background-color: #d11414;
+}
+
+.pvc-form-footer {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #777;
+  margin-top: 20px;
+  line-height: 1.4;
+}
+
+/* Sidebar Styling */
+.pvc-info-column {
+  flex: 1;
+}
+
+.pvc-image-wrapper {
+  width: 100%;
+  border-radius: 30px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.pvc-contact-brand-img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.pvc-details-block {
+  padding-left: 10px;
+}
+
+.pvc-details-label {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.pvc-detail-item {
+  font-size: 0.9rem;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 968px) {
+  .pvc-contact-container {
+    flex-direction: column;
+  }
+  
+  .pvc-info-column {
+    order: -1; /* Image comes first on mobile */
+    width: 100%;
+  }
+
+  .pvc-header-title {
+    font-size: 2.2rem;
+  }
+}

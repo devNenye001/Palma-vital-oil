@@ -1,0 +1,141 @@
+.pvf-faq-wrapper {
+  padding: 80px 40px;
+  min-height: 80vh;
+}
+
+.pvf-faq-layout {
+  display: flex;
+  gap: 60px;
+  align-items: flex-start;
+}
+
+/* Left Section Styles */
+.pvf-faq-intro {
+  flex: 1;
+  position: sticky;
+  top: 120px;
+}
+
+.pvf-faq-main-title {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #1a1a1a;
+  line-height: 1.1;
+  margin-bottom: 25px;
+}
+
+.pvf-text-red {
+  color: #ff1a1a;
+}
+
+.pvf-faq-subtitle {
+  font-size: 1.05rem;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 40px;
+  max-width: 400px;
+}
+
+.pvf-contact-support-btn {
+  display: inline-block;
+  background-color: #ff1a1a;
+  color: white;
+  padding: 16px 36px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.pvf-contact-support-btn:hover {
+  background-color: #d11414;
+  transform: translateY(-2px);
+}
+
+/* Accordion Styles */
+.pvf-accordion-container {
+  flex: 1.5;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.pvf-accordion-item {
+  background: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+  transition: 0.3s ease;
+}
+
+.pvf-accordion-header {
+  width: 100%;
+  padding: 24px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+}
+
+.pvf-question-text {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.pvf-icon-wrapper {
+  font-size: 1.4rem;
+  color: #333;
+  background: #f0f0f0;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+/* Accordion Body Transition */
+.pvf-accordion-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  background: #ffffff;
+}
+
+.pvf-active .pvf-accordion-body {
+  max-height: 200px; /* Adjust based on content length */
+}
+
+.pvf-active .pvf-icon-wrapper {
+  background: #000;
+  color: #fff;
+}
+
+.pvf-answer-text {
+  padding: 0 30px 24px 30px;
+  color: #777;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+/* Responsive Design */
+@media (max-width: 968px) {
+  .pvf-faq-layout {
+    flex-direction: column;
+  }
+  
+  .pvf-faq-intro {
+    position: static;
+    text-align: left;
+    margin-bottom: 40px;
+  }
+
+  .pvf-faq-main-title {
+    font-size: 2rem;
+  }
+}
