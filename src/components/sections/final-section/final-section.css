@@ -42,7 +42,6 @@
   font-size: 1.1rem;
   font-weight: 600;
   transition: all 0.3s ease;
-  box-shadow: 0 10px 20px rgba(255, 26, 26, 0.15);
 }
 
 .whatsapp-btn:hover {

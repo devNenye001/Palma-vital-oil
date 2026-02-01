@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaWhatsapp } from 'react-icons/fa'; // Using react-icons as requested
-import './final-section.jsx.css';
+import './final-section.css';
 
 const FinalSection = () => {
   return (
