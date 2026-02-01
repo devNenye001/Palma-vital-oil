@@ -90,6 +90,9 @@
 
 /* Responsive Design */
 @media (max-width: 968px) {
+    .hero-title{
+        font-size: 2.8rem
+    }
   .hero-container {
     flex-direction: column;
     text-align: center;
@@ -107,4 +110,8 @@
   .hero-image-container {
     justify-content: center;
   }
+  .btn-filled, .btn-outline {
+  font-size: 0.85rem;
+}
+
 }

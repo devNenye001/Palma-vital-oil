@@ -82,4 +82,7 @@
   .about-image {
     height: 350px;
   }
+  .about-title{
+    font-size: 2.2rem;
+  }
 }

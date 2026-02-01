@@ -107,4 +107,7 @@
   .image-card {
     height: 400px;
   }
+  .testimonial-title{
+    font-size: 2.2rem;
+  }
 }

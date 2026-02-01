@@ -70,4 +70,8 @@
   .products-grid {
     grid-template-columns: 1fr;
   }
+
+  .shop-title{
+    font-size: 2rem;
+  }
 }
