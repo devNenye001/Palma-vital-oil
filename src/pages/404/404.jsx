@@ -1,6 +1,8 @@
 import './404.css'
 import Button from '../../components/button/button'
 import Breadcrumb from '../../components/breadcrumbs/breadcrumb'
+import Nav from '../../components/nav/nav'
+import Footer from '../../components/footer/footer'
 
 const NotFound = () => {
   const breadcrumbItems = [
@@ -10,6 +12,7 @@ const NotFound = () => {
 
   return (
     <>
+    <Nav />
     <Breadcrumb items={breadcrumbItems} />
      <div className='notfound'>
       <div className='notfound-content'>
@@ -19,6 +22,7 @@ const NotFound = () => {
         <Button label="Go to Home" />
       </div>
     </div>
+    <Footer />
     </>
    
   )

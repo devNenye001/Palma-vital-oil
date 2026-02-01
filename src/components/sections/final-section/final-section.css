@@ -57,7 +57,7 @@
 /* Responsive Design */
 @media (max-width: 768px) {
   .final-cta-section {
-    padding: 80px 5%;
+    padding: 60px 40px;
   }
 
   .cta-title {

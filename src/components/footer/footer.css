@@ -87,6 +87,9 @@
 }
 
 @media (max-width: 480px) {
+    .footer{
+        padding-bottom: 40px;
+    }
     .footer-links-group {
         grid-template-columns: 1fr;
     }
