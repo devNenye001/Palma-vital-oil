@@ -1,0 +1,290 @@
+.pva-about-page {
+  padding: 80px 40px;
+  background-color: #ffffff;
+  font-family: 'Inter', sans-serif;
+}
+
+.pva-about-hero {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.pva-about-hero-title {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #1a1a1a;
+}
+
+/* Who We Are Layout */
+.pva-who-we-are {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+
+.pva-text-container {
+  flex: 1;
+}
+
+.pva-section-heading {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 25px;
+  color: #1a1a1a;
+}
+
+.pva-body-copy {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.pva-image-container {
+  flex: 1;
+}
+
+.pva-hero-img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+
+/* Our Promise Layout */
+.pva-our-promise {
+  text-align: center;
+}
+
+.pva-center-text {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pva-max-width {
+  max-width: 700px;
+}
+
+.pva-promise-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.pva-gallery-img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+.pva-partner-section {
+  padding: 50px 40px;
+  background-color: #ffffff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.pva-partner-container {
+  max-width: 700px;
+}
+
+.pva-partner-badge {
+  background: #f0f0f0;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  color: #666;
+  text-transform: capitalize;
+}
+
+.pva-partner-title {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #1a1a1a;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.pva-partner-subtitle {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.pva-partner-cta-btn {
+  background-color: #ff1a1a;
+  color: #ffffff;
+  border: none;
+  padding: 16px 36px;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.pva-partner-cta-btn:hover {
+  background-color: #d11414;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(255, 26, 26, 0.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .pva-partner-section {
+    padding-top: 40px;
+    padding: 40px 0px;
+  }
+
+  .pva-partner-title {
+    font-size: 2.2rem;
+  }
+
+  .pva-partner-cta-btn {
+    width: 100%;
+  }
+
+  .pva-who-we-are{
+    flex-direction: column;
+    gap: 40px;
+  
+  }
+}
+
+/* Responsive */
+@media (max-width: 968px) {
+  .pva-who-we-are, .pva-story-grid {
+    grid-template-columns: 1fr;
+    flex-direction: column;
+  }
+  
+  .pva-promise-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .pva-about-hero-title {
+    font-size: 2rem;
+  }
+}
+.pv-story-section {
+  padding: 80px 40px;
+  background-color: #ffffff;
+}
+
+.pv-story-container {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+/* Image Grid Styling */
+.pv-story-visual-grid {
+  flex: 1.2;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 15px;
+}
+
+.pv-grid-main {
+  grid-row: span 2;
+  display: flex;
+  align-items: center;
+}
+
+.pv-grid-main img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.pv-grid-top-right img,
+.pv-grid-bottom-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+/* Content Styling */
+.pv-story-content-block {
+  flex: 1;
+}
+
+.pv-story-heading {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #1a1a1a;
+  margin-bottom: 25px;
+}
+
+.pv-story-paragraph {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.pv-story-intro-list {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.pv-story-bullet-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 25px;
+}
+
+.pv-story-bullet-list li {
+  position: relative;
+  padding-left: 20px;
+  color: #555;
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+}
+
+.pv-story-bullet-list li::before {
+  content: "•";
+  color: #333; 
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .pv-story-container {
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .pv-story-visual-grid {
+    width: 100%;
+    padding: 0px;
+  }
+
+  .pv-story-section {
+    padding: 40px 0px;
+  }
+}
+
+@media (max-width: 600px) {
+  .pv-story-visual-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .pv-grid-main {
+    grid-row: auto;
+  }
+}
+
+.pva-about-page .testimonial-section {
+  padding: 0px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+}
