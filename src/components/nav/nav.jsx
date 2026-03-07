@@ -39,7 +39,7 @@ const Nav = () => {
 
       {/* Button hidden on mobile, visible on desktop */}
       <div className="desktop-cta">
-        <Link to="/shop">
+        <Link to="/products">
           <Button label="Shop Now"/>
         </Link>
       </div>

@@ -23,7 +23,7 @@ const FAQs = () => {
     },
     {
       question: "How do I place an order?",
-      answer: "You can place an order directly through our website shop or click the WhatsApp button to chat with a representative for instant processing."
+      answer: "You can place an order by clicking on the WhatsApp button to chat with a representative for instant processing."
     },
     {
       question: "Do you deliver nationwide?",

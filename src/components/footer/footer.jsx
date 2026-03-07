@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaInstagram, FaFacebook, FaTwitter, FaWhatsapp } from 'react-icons/fa';
+import { FaInstagram, FaFacebook, FaTwitter, FaWhatsapp, FaTiktok } from 'react-icons/fa';
 import { FiMail, FiMapPin, FiPhone } from 'react-icons/fi';
 import './footer.css';
 
@@ -26,15 +26,13 @@ const Footer = () => {
 
           <div className="footer-column">
             <h3>Follow Us</h3>
-            <a href="https://instagram.com" target="_blank" rel="noreferrer"><FaInstagram /> Instagram</a>
-            <a href="https://facebook.com" target="_blank" rel="noreferrer"><FaFacebook /> Facebook</a>
-            <a href="https://twitter.com" target="_blank" rel="noreferrer"><FaTwitter /> Twitter</a>
+            <a href="https://www.instagram.com/palma_vital_oil/" target="_blank" rel="noreferrer"><FaInstagram /> Instagram</a>
+            <a href="https://www.tiktok.com/@pamavitaloil" target="_blank" rel="noreferrer"><FaTiktok /> TikTok</a>
           </div>
 
           <div className="footer-column">
             <h3>Contact</h3>
-            <p><FiPhone /> +234 813 456 7789</p>
-            <p className="whatsapp-link"><FaWhatsapp /> Order on WhatsApp</p>
+            <p><FiPhone /> +234 915 645 8850</p>
             <p><FiMail /> info@palmavital.com.ng</p>
             <p><FiMapPin /> Enugu, Nigeria</p>
           </div>

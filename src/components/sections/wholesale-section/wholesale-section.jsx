@@ -1,5 +1,6 @@
 import React from 'react';
 import './wholesale-section.css';
+import { Link } from 'react-router-dom';
 
 const WholesaleSection = () => {
   return (
@@ -14,8 +15,10 @@ const WholesaleSection = () => {
           Grow with a brand that Nigerians trust. <br />
           We offer great margins, timely supply, and nationwide support.
         </p>
+        <Link to="/distributor">
         <button className="join-network-btn">Join Our Distributor Network</button>
-      </div>
+    </Link>
+    </div>
 
       {/* Banner Image with Overlay */}
       <div className="wholesale-banner">

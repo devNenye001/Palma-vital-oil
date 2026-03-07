@@ -16,7 +16,7 @@ const Hero = () => {
           From our farms to your kitchen — bottled with care and quality.
         </p>
         <div className="hero-buttons">
-          <Link to="/shop">
+          <Link to="/products">
           <button className="btn-filled">Order Now</button>
           </Link>
           <Link to="/distributor">

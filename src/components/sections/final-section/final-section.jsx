@@ -12,11 +12,11 @@ const FinalSection = () => {
         </h2>
         
         <p className="whatsapp-number">
-          WhatsApp Us: +234 813 456 7789
+          WhatsApp Us: +234 915 645 8850
         </p>
 
         <a 
-          href="https://wa.me/2348134567789" 
+          href="https://wa.me/2349156458850" 
           target="_blank" 
           rel="noreferrer"
           className="whatsapp-btn"
