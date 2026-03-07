@@ -12,7 +12,7 @@ const Nav = () => {
   return (
     <nav className="navbar">
       <Link to="/" className="nav-logo">
-        <img src="/logo1.svg" alt="Palma vita oil logo" height="60"/>
+        <img src="/LOGO3.jpeg" alt="Palma vita oil logo" height="60"/>
       </Link>
       
       {/* Mobile Toggle Icon */}

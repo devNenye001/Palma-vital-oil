@@ -57,7 +57,7 @@ const FAQs = () => {
             Find quick, clear answers to help you shop with confidence and choose what’s best for your home and kitchen.
           </p>
           <a 
-            href="https://wa.me/2348134567789" 
+            href="https://wa.me/2349156458850" 
             className="pvf-contact-support-btn"
             target="_blank" 
             rel="noreferrer"

@@ -9,7 +9,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-top">
         <div className="footer-brand-section">
-          <img src="/logo1.svg" alt="Palma vita oil logo" height="70"/>
+          <img src="/LOGO3.jpeg" alt="Palma vita oil logo" height="70"/>
           <p className="brand-desc">Premium-quality palm oil processed with care, freshness, and authenticity.</p>
         </div>
 
