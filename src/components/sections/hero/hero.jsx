@@ -28,7 +28,7 @@ const Hero = () => {
       {/* Right Content - Product Image */}
       <div className="hero-image-container">
         <img 
-          src="/hero.svg" 
+          src="/hero2.png" 
           alt="Palma Vital Oil Products" 
           className="hero-image"
         />
