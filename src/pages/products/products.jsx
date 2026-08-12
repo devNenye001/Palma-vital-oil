@@ -16,21 +16,28 @@ const Products = () => {
       name: "1L Palma Vital Oil",
       tagline: "Daily cooking made easy.",
       price: "N2500",
-      image: "/p1.svg"
+      image: "/one-litre.png"
     },
     {
       id: 2,
       name: "2L Family Size",
       tagline: "More value, same freshness.",
       price: "N5500",
-      image: "/p2.svg"
+      image: "/two-litres.png"
     },
     {   
       id: 3,
       name: "5L Premium Jar",
       tagline: "For homes, restaurants & bulk buyers.",
       price: "N7500",
-      image: "/p3.svg"
+      image: "/five-litres.png"
+    },
+    {
+      id: 4,
+      name: "25L Premium Gallon",
+      tagline: "Bulk packaging for commercial & industrial use.",
+      price: "N35,000",
+      image: "/twenty-five-litres.png"
     }
   ];
 

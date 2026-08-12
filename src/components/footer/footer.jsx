@@ -1,6 +1,6 @@
-import React from 'react';
+
 import { Link } from 'react-router-dom';
-import { FaInstagram, FaFacebook, FaTwitter, FaWhatsapp, FaTiktok } from 'react-icons/fa';
+import { FaInstagram, FaTiktok } from 'react-icons/fa';
 import { FiMail, FiMapPin, FiPhone } from 'react-icons/fi';
 import './footer.css';
 
@@ -9,7 +9,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-top">
         <div className="footer-brand-section">
-          <img src="/LOGO3.jpeg" alt="Palma vita oil logo" height="70"/>
+          <img src="/new-logo.png" alt="Palma vital oil logo" height="70"/>
           <p className="brand-desc">Premium-quality palm oil processed with care, freshness, and authenticity.</p>
         </div>
 

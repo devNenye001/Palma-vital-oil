@@ -6,22 +6,28 @@ import { Link } from 'react-router-dom';
 
 const products = [
   {
-    image: '/p1.svg',
+    image: '/one-litre.png',
     title: '1L Palma Vital Oil',
     description: 'Daily cooking made easy.',
     price: 'N2500'
   },
   {
-    image: '/p2.svg',
+    image: '/two-litres.png',
     title: '2L Family Size',
     description: 'More value, same freshness.',
     price: 'N5500'
   },
   {
-    image: '/p3.svg',
+    image: '/five-litres.png',
     title: '5L Premium Jar',
     description: 'For homes, restaurants & bulk buyers.',
     price: 'N7500'
+  },
+  {
+    image: '/twenty-five-litres.png',
+    title: '25L Premium Gallon',
+    description: 'Bulk packaging for commercial & industrial use.',
+    price: 'N35,000'
   }
 ];
 
