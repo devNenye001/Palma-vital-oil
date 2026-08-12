@@ -36,7 +36,7 @@ const Products = () => {
       id: 4,
       name: "25L Premium Gallon",
       tagline: "Bulk packaging for commercial & industrial use.",
-      price: "N35,000",
+      price: "N56,000",
       image: "/twenty-five-litres.png"
     }
   ];

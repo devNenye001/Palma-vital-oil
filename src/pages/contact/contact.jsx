@@ -102,7 +102,7 @@ const Contact = () => {
           <div className="pvc-info-column">
             <div className="pvc-image-wrapper">
               <img
-                src="/contact.svg"
+                src="/contact-img.jpeg"
                 alt="Nigerian woman with Palma Vital Oil"
                 className="pvc-contact-brand-img"
               />
@@ -110,9 +110,9 @@ const Contact = () => {
 
             <div className="pvc-details-block">
               <h3 className="pvc-details-label">Contact</h3>
-              <p className="pvc-detail-item">Phone Number: +234 915 645 8850</p>
+              <p className="pvc-detail-item">Phone Number: +234 813 451 3172</p>
               <p className="pvc-detail-item">
-                Order on WhatsApp: +234 915 645 8850
+                Order on WhatsApp: +234 813 451 3172
               </p>
               <p className="pvc-detail-item">
                 Email Address: info@palmavital.com.ng

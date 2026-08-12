@@ -110,7 +110,7 @@ const About = () => {
         </p>
         <button 
           className="pva-partner-cta-btn"
-          onClick={() => window.open('https://wa.me/2348134567789', '_blank')}
+          onClick={() => window.open('https://wa.me/2348134513172', '_blank')}
         >
           Join Our Distributor Network
         </button>

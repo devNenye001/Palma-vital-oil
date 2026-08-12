@@ -118,10 +118,10 @@ const Distributor = () => {
           
           <div className="pva-approval-details">
             <p className="pva-detail-row">
-              <span className="pva-label">Phone Number:</span> +234 915 645 8850
+              <span className="pva-label">Phone Number:</span> +234 813 451 3172
             </p>
             <p className="pva-detail-row">
-              <span className="pva-label">Order on WhatsApp:</span> +234 915 645 8850
+              <span className="pva-label">Order on WhatsApp:</span> +234 813 451 3172
             </p>
             <p className="pva-detail-row">
               <span className="pva-label">Email Address:</span> info@palmavital.com.ng

@@ -32,7 +32,7 @@ const Footer = () => {
 
           <div className="footer-column">
             <h3>Contact</h3>
-            <p><FiPhone /> +234 915 645 8850</p>
+            <p><FiPhone /> +234 813 451 3172</p>
             <p><FiMail /> info@palmavital.com.ng</p>
             <p><FiMapPin /> Enugu, Nigeria</p>
           </div>

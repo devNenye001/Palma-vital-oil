@@ -45,7 +45,7 @@ const FeaturesSection = () => {
 
         <div className="features-center">
           <div className="product-bg-blob">
-            <img src="/f1.svg" alt="Palma Vital Oil Bottle" />
+            <img src="/one-litre.png" alt="Palma Vital Oil Bottle" />
           </div>
         </div>
 
