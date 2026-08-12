@@ -22,12 +22,6 @@ const products = [
     title: '5L Premium Jar',
     description: 'For homes, restaurants & bulk buyers.',
     price: 'N7500'
-  },
-  {
-    image: '/twenty-five-litres.png',
-    title: '25L Premium Gallon',
-    description: 'Bulk packaging for commercial & industrial use.',
-    price: 'N35,000'
   }
 ];
 
