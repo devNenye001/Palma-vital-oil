@@ -26,7 +26,7 @@ const WholesaleSection = () => {
           <h2 className="banner-text">Pure. Fresh. Trusted.</h2>
         </div>
         <img 
-          src="/wholesale.svg" 
+          src="/hero4.png" 
           alt="Group of Palma Vital Oil bottles" 
           className="banner-img"
         />

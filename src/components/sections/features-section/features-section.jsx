@@ -54,7 +54,7 @@ const FeaturesSection = () => {
           <FeatureCard {...features[3]} />
         </div>
       </div>
-       <video src="/ad.mp4" controls loop muted className="home-video" style={{width:"100%", height:"auto", marginTop:"20px"}}/>
+       <video src="/ad2.mp4" controls loop muted className="home-video" style={{width:"100%", height:"auto", marginTop:"20px"}}/>
     </section>
   );
 };

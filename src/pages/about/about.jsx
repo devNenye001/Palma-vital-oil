@@ -49,7 +49,7 @@ const About = () => {
         {/* Left Side: Image Grid */}
         <div className="pv-story-visual-grid">
           <div className="pv-grid-main">
-            <img src="/a2.svg" alt="5L Premium Jar with splash" />
+            <img src="/five-litres.png" alt="5L Premium Jar with splash" />
           </div>
           <div className="pv-grid-top-right">
             <img src="/a3.svg" alt="Hands holding palm kernels" />

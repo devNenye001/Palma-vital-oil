@@ -72,7 +72,7 @@ const Distributor = () => {
             ))}
           </div>
           <div className="pvd-benefits-visual">
-            <img src="/d3.svg" alt="Palma Vital product line" className="pvd-img-secondary" />
+            <img src="/distributor1.png" alt="Palma Vital product line" className="pvd-img-secondary" />
           </div>
         </div>
       </section>
@@ -82,7 +82,7 @@ const Distributor = () => {
         <h2 className="pvd-sub-heading pvd-center">Who Can Become a Distributor?</h2>
         <div className="pvd-target-grid">
           <div className="pvd-target-visual">
-             <img src="/d4.svg" alt="Oil stock display" className="pvd-img-tertiary" />
+             <img src="/twenty-five-litres.png" alt="Oil stock display" className="pvd-img-tertiary" />
           </div>
           <div className="pvd-category-list">
             {categories.map((cat, i) => (
